@@ -1,0 +1,13 @@
+src:
+  conn_str: < SOURCE ELASTICSEARCH URL > (Ex - http://127.0.0.1:9200/)
+  index: < SOURCE INDEX NAME >
+  username: null
+  password: null
+
+dst:
+  conn_str: < DESTINATION ELASTICSEARCH URL > (Ex - http://192.168.1.10:9200/)
+  index: < DESTINATION INDEX NAME >
+  username: null
+  password: null
+
+batch_size: 1000
